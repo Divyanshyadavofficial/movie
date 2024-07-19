@@ -1,0 +1,27 @@
+.header {
+    margin: 0 2.5rem;
+    padding: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left, .header__right {
+    display: flex;
+    align-items: center;
+}
+
+a > span {
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: red;
+}
+
+.avatar {
+    border-radius: 50%;
+}
