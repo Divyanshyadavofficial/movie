@@ -5,7 +5,6 @@ import Navbar from './components/Navbar/Navbar';
 import "./index.css";
 import HomePage from './pages/homepage/HomePage';
 import MovieList from './components/MovieList/MovieList';
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter basename={process.env.PUBLIC_URL}  >

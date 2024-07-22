@@ -1,12 +1,16 @@
+import { ThemeProvider } from "@emotion/react";
 import MovieList from "../../components/MovieList/MovieList";
 import Slider from "../../components/Slider/Slider";
+import theme from "../../theme";
 
 const HomePage = () => {
   return (
-    <>
-      <Slider />
-      <MovieList />
-    </>
+    <ThemeProvider theme={theme}>
+      <>
+        <Slider />
+        <MovieList />
+      </>
+    </ThemeProvider>
   );
 };
 
